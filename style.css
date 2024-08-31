@@ -1,0 +1,308 @@
+
+*{
+    font-family: linux libertine, georgia, times, serif;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    text-align: left;
+    font-size: 25px;
+    color: rgb(255, 255, 240);
+}
+p {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #fff;
+}
+.title, .title-center{
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 40px;
+    color: #95f3ab;
+}
+.title-center{ 
+    text-align: center;
+    font-size: 50px;
+
+    margin-left: 0;
+    margin-right: 0;
+}
+.title{
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+.interface{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+header{
+    width: 100%;
+    padding: 15px 0;
+    background: linear-gradient(90deg, rgba(10, 30, 35, 1) 0%, rgba(23, 56, 58, 0.9) 50%, rgba(10, 30, 35, 1) 100%);
+    backdrop-filter: blur(8px);
+    text-align: center;
+}
+header .interface{
+    justify-content: space-between;
+    align-items: center;
+}
+header .menudesktop nav ul{
+    list-style-type: none;
+}
+header .menudesktop nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+    font-size: 25px;
+}
+header .menudesktop nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    transition: 0.2s;
+}
+header .menudesktop nav ul li a:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+.teme-color{
+    color: #95f3ab;
+}
+a{
+    color: currentColor;
+}
+
+.fundo{
+    background: linear-gradient(90deg, rgba(10, 30, 35, 0.80) 0%, rgba(23, 56, 58, 0.85) 50%, rgba(10, 30, 35, 0.80) 100%);
+    backdrop-filter: blur(8px);
+}
+th{
+    padding: 7px;
+    border: 1px solid #65a374;
+}
+#table-barcos, .table-recompensas{
+    border: 1px solid #3f8e7c;
+    background-color: #0a1e23;
+    color: #fff;
+    margin: auto auto;
+    border-collapse: collapse;
+}
+.table-recompensas{
+    font-size: 78%;
+}
+.body-barcos, .body-combate, .body-cosmeticos, .body-lorotas{
+    background-image: url(imgs/mains/Sea_World_Map.webp);
+    background-attachment: fixed;
+    background-size: cover;   
+}
+
+/*BARCOS*//*BARCOS*//*BARCOS*//*BARCOS*//*BARCOS*//*BARCOS*//*BARCOS*/
+
+.img-barcos{
+    width: 450px;
+    float: right;
+    margin-right: 15%;
+    margin-bottom: 20px;
+    border: 1px solid #95f3ab;
+    border-radius: 50px;
+}
+.resolver-float{
+    clear: both;
+    padding-bottom: 10px;
+}
+/*BARCOS*//*BARCOS*//*BARCOS*//*BARCOS*//*BARCOS*//*BARCOS*//*BARCOS*/
+
+
+/*LOROTAS*//*LOROTAS*//*LOROTAS*//*LOROTAS*//*LOROTAS*//*LOROTAS*/
+
+.grid-lorotas{
+    display: grid;
+    grid-template-columns: auto 300px 90px 300px auto;
+    grid-template-rows: 90px 200px 90px 200px 90px;
+}
+.img-lorotas{
+    border: 1px solid #95f3ab;
+}
+#shroudbreaker-img{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#a-pirates-life-img{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#ashen-age-img{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#monkey-island-img{
+    grid-column: 4/5;
+    grid-row: 4/5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.description{
+    width: 289px;
+    padding: 5px;
+    margin-left: 1px;
+    background-color: white;
+    color: #95f3ab;
+    text-align: center;
+    margin-top: -110px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+.link-rodape{
+    font-size: 80%;
+}
+.body-ashen-age footer nav, .body-life footer nav, .body-monkey footer nav, .body-shroudbraker footer nav{
+    display: grid;
+    grid-template-columns: auto 200px 60px 200px 60px 200px auto;
+    grid-template-rows: 90px 100px 90px;
+}
+#informacao{
+    text-align: center;
+    color: #95f3ab;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#shroudbreaker-img-rodape{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+#monkey-island-img-rodape{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+#a-pirates-life-img-rodape{
+    grid-column: 6/7;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+#ashen-age-img-life{
+    grid-column: 6/7;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+#ashen-age-img-monkey{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+#ashen-age-img-shroud{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.description-rodape{
+    padding: 2px;
+    margin-left: 1px;
+    background-color: white;
+    color: #95f3ab;
+    text-align: center;
+    margin-top: -65px;
+    font-size: 20px;
+}
+/*LOROTAS*//*LOROTAS*//*LOROTAS*//*LOROTAS*//*LOROTAS*//*LOROTAS*/
+
+
+/*ASHEN*//*ASHEN*//*ASHEN*//*ASHEN*//*ASHEN*//*ASHEN*//*ASHEN*/
+
+.body-ashen-age{
+    background-image: url(imgs/mains/ashen-age-defc.png);
+    background-attachment: fixed;
+    background-size: cover; 
+}
+#coracao-de-fogo{
+    margin-top: 40px;
+}
+
+/*ASHEN*//*ASHEN*//*ASHEN*//*ASHEN*//*ASHEN*//*ASHEN*//*ASHEN*/
+
+
+/*SHROUDBRAKER*//*SHROUDBRAKER*//*SHROUDBRAKER*//*SHROUDBRAKER*/
+
+.body-shroudbraker{
+    background-image: url(imgs/mains/shroudbreaker-defc.png);
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+/*SHROUDBRAKER*//*SHROUDBRAKER*//*SHROUDBRAKER*//*SHROUDBRAKER*/
+
+
+/*MONKEY*//*MONKEY*//*MONKEY*//*MONKEY*//*MONKEY*//*MONKEY*//*MONKEY*/
+
+.body-monkey{
+    background-image: url(imgs/mains/monkey-island-defc.png);
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+/*MONKEY*//*MONKEY*//*MONKEY*//*MONKEY*//*MONKEY*//*MONKEY*//*MONKEY*/
+
+
+/*LIFE*//*LIFE*//*LIFE*//*LIFE*//*LIFE*//*LIFE*//*LIFE*//*LIFE*//*LIFE*/
+
+.body-life{
+    background-image: url(imgs/mains/a-pirates-life-defc.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*LIFE*//*LIFE*//*LIFE*//*LIFE*//*LIFE*//*LIFE*//*LIFE*//*LIFE*//*LIFE*/
